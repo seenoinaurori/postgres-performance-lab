@@ -1,0 +1,21 @@
+Execution Plan
+
+Limit
+ Sort
+  GroupAggregate
+   Index Scan using idx_pending_recent
+
+Execution Time:
+96 ms
+
+Scan Type:
+Index Scan
+
+Rows Processed:
+162340
+
+Buffers:
+Shared Hit=914
+
+Improvement:
+Approximately 22x faster
