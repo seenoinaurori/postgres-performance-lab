@@ -1,0 +1,9 @@
+Connection Command
+
+psql -h 127.0.0.1 -p 6432 -U postgres bootcamp
+
+Connection Result
+
+Connected successfully through PgBouncer.
+
+No configuration errors encountered.
