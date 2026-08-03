@@ -1,0 +1,18 @@
+Execution Plan
+
+Limit
+ Sort
+  GroupAggregate
+   Seq Scan on orders
+
+Execution Time:
+2145 ms
+
+Scan Type:
+Sequential Scan
+
+Rows Processed:
+2,000,000
+
+Buffers:
+Shared Hit=15344
