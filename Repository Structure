@@ -1,0 +1,31 @@
+postgres-performance-lab/
+│
+├── schema/
+│   └── orders_table.sql
+│
+├── data/
+│   └── generate_orders.sql
+│
+├── performance/
+│   ├── slow_query.sql
+│   ├── index_optimization.sql
+│   ├── before_explain.txt
+│   └── after_explain.txt
+│
+├── isolation/
+│   ├── read_committed_demo.sql
+│   ├── repeatable_read_demo.sql
+│   └── isolation_results.md
+│
+├── pgbouncer/
+│   ├── pgbouncer.ini
+│   ├── connection_test.txt
+│   └── setup_notes.md
+│
+├── docs/
+│   ├── optimization_report.md
+│   ├── performance_comparison.md
+│   ├── pooling_analysis.md
+│   └── reflection.md
+│
+└── README.md
